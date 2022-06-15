@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
+import { Link } from "react-router-dom";
+
 const ListItem = ({ imageUrl, fullTitle }) => {
   return (
     <Container>
-      <ListImage src={imageUrl} />
+      <Link to={`/${fullTitle}`}>
+        <ListImage src={imageUrl} />
+      </Link>
       <Title>{fullTitle}</Title>
     </Container>
   );

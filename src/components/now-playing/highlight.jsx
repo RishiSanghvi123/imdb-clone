@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
+import { Link } from "react-router-dom";
+
 const HighlightItem = ({ imageUrl, fullTitle }) => {
   return (
     <Container>
-      <HighlightImage src={imageUrl} />
+      <Link to={`/${fullTitle}`}>
+        <HighlightImage src={imageUrl} />
+      </Link>
       <Title>{fullTitle}</Title>
     </Container>
   );

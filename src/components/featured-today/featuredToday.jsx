@@ -17,7 +17,6 @@ const NowPlaying = () => {
           setData(res.data.items);
           setDataLength(res.data.items.length);
         });
-      console.log(data);
     }
     fetch();
   }, []);

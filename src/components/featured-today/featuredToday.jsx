@@ -2,7 +2,7 @@ import styled from "styled-components";
 import axios from "axios";
 
 import { useEffect, useState } from "react";
-import FeatureTodayItem from "./featured-today";
+import FeatureTodayItem from "./featuredTodayItem";
 
 const FeaturedToday = () => {
   const [data, setData] = useState([]);

@@ -17,7 +17,7 @@ const Movie = () => {
       console.log(data);
     }
     fetch();
-  }, []);
+  }, [data, movie]);
   return <div>{movie}</div>;
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import Home from "./pages/home/home";
-import Movie from "./pages/home/movie";
+import Movie from "./pages/movie/movie";
 
 function App() {
   // useEffect(() => {

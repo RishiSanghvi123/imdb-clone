@@ -4,7 +4,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import FeatureTodayItem from "./featured-today";
 
-const NowPlaying = () => {
+const FeaturedToday = () => {
   const [data, setData] = useState([]);
   const [dataLength, setDataLength] = useState(0);
   const [index, setIndex] = useState(0);
@@ -80,4 +80,4 @@ const ButtonContainer = styled.div`
   padding-top: 40px;
 `;
 
-export default NowPlaying;
+export default FeaturedToday;

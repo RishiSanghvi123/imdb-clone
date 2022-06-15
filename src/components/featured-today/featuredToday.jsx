@@ -80,4 +80,4 @@ const ButtonContainer = styled.div`
   padding-top: 40px;
 `;
 
-export default FeaturedToday;
+export default FeaturedTodayn;
